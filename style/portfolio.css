@@ -61,3 +61,41 @@ nav .menu a:hover {
     background-color: #FD6E0A;
     color: #ffffff;
 }
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 163px;
+    background-color: #FFF8F3;
+    padding-left: 230px;
+    padding-right: 20px;
+    background: url("./../images/developer.png"), url("./../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner-content {
+   max-width: 585px;
+}
+.banner-content h2{
+   font-weight: 600;
+   font-size: 45px;
+   color: #474747;
+}
+.banner-content h1{
+   font-weight: 800;
+   font-size: 85px;
+   color: #181818;
+   padding-top: 5px;
+   padding-bottom: 20px;
+}
+.banner-content p{
+   font-size: 18px;
+   color: #757575;
+   line-height: 30px;
+   padding-bottom: 30px;
+   
+}
+#banner .banner-image img{
+    max-width: 584px;
+    vertical-align: middle;
+}
