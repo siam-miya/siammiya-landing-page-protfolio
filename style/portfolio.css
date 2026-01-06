@@ -99,3 +99,46 @@ nav .menu a:hover {
     max-width: 584px;
     vertical-align: middle;
 }
+
+/* about css start */
+#about {
+    margin: 130px 230px;
+}
+#about .about-container {
+    background-color: #FFF8F3;
+    padding: 130px 155px;
+    border-radius: 10px;
+}
+.about-container .section-heading {
+     text-align: center;
+}
+.about-container .section-heading h2{
+     font-weight: 800;
+     font-size: 35px;
+     color: #181818;
+}
+#about .about-container .section-heading p{
+      font-size: 18px;
+      line-height: 30px;
+      color: #757575;
+      padding-top: 30px;
+      padding-bottom: 30px;
+}
+.about-container .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
+}
+.about-info .info-card p{
+   font-size: 20px;
+   line-height: 30px;
+   color: #757575;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+   line-height: 30px;
+   color: #474747;
+}
+/* about css end */
